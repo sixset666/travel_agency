@@ -1,0 +1,262 @@
+/* Общие стили для всех страниц */
+
+/* Сброс стилей */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Шапка сайта */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Основное содержимое страницы */
+
+
+/* Футер сайта */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ссылки */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Общие стили для всех страниц */
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+}
+
+/* Формы */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Списки */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Контейнеры */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Сообщения об ошибках */
+.error {
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+/* Стили для страницы приветствия */
+
+.content {
+    margin: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.slider img {
+    flex: 0 0 auto;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.special-offers {
+    margin-top: 20px;
+}
+
+.travel-recommendations {
+    margin-top: 20px;
+}
+
+.travel-recommendations h2 {
+    margin-bottom: 10px;
+}
+
+.travel-recommendations ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.travel-recommendations li {
+    margin-bottom: 5px;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter h2 {
+    margin-bottom: 10px;
+}
+
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+.customer-reviews {
+    margin-top: 20px;
+}
+
+.customer-reviews h2 {
+    margin-bottom: 10px;
+}
+
+.customer-reviews ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.customer-reviews li {
+    margin-bottom: 10px;
+}
+
+/* Общие стили для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+}
+
+/* Стили для заголовка и нижнего колонтитула */
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tours {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tour-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    background-color: #f9f9f9;
+}
+
+.tour-card h2 {
+    margin-top: 0;
+}
+
+.tour-card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.tour-card a:hover {
+    background-color: #0056b3;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

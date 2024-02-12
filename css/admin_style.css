@@ -1,0 +1,134 @@
+/* Стили для административной панели */
+
+.admin-header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.admin-sidebar {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  float: left;
+}
+
+.admin-content {
+  padding: 20px;
+  margin-left: 220px;
+}
+
+/* Стили для контейнера страницы */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Стили для заголовков */
+h1,
+h2 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Стили для навигационного меню */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav ul li a:hover {
+  color: #0056b3;
+}
+
+/* Стили для списка туров */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Стили для кнопок */
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для формы */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+.tour-card {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+.tour-card h3 {
+  margin-top: 0;
+}
+.tour-card a {
+  margin-right: 10px;
+}
+.card-img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.navbar,
+.navbar-nav{
+  align-items: center;
+}
+
+.nav-item{
+  margin-bottom: 0px;
+}
